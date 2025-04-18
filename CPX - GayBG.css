@@ -1,0 +1,94 @@
+/**
+ * @name Rainbow BG
+ * @author CandyPx
+ * @authorLink https://github.com/CandyPxUwU
+ * @version lesbian
+ * @invite
+ * @description guys its the gay folder theme but for the background! (no actual relation)
+ * @source https://github.com/CandyPxUwU/RainbowBG
+*/
+/*Rainbow animation for rainbow stuffs*/
+@keyframes rainbow-bg{
+		100%,0%{
+			background-color: rgb(60,0,0);
+		}
+		8%{
+			background-color: rgb(60,30,0);
+		}
+		16%{
+			background-color: rgb(60,60,0);
+		}
+		25%{
+			background-color: rgb(30,60,0);
+		}
+		33%{
+			background-color: rgb(0,60,0);
+		}
+		41%{
+			background-color: rgb(0,60,30);
+		}
+		50%{
+			background-color: rgb(0,60,60);
+		}
+		58%{
+			background-color: rgb(0,30,60);
+		}
+		66%{
+			background-color: rgb(0,0,60);
+		}
+		75%{
+			background-color: rgb(30,0,60);
+		}
+		83%{
+			background-color: rgb(60,0,60);
+		}
+		91%{
+			background-color: rgb(60,0,30);
+		}
+}
+
+/*lighter one for certain stuffs*/
+@keyframes lit-rainbow-bg{
+		100%,0%{
+			background-color: rgb(128,0,0);
+		}
+		8%{
+			background-color: rgb(128,60,0);
+		}
+		16%{
+			background-color: rgb(128,128,0);
+		}
+		25%{
+			background-color: rgb(60,128,0);
+		}
+		33%{
+			background-color: rgb(0,128,0);
+		}
+		41%{
+			background-color: rgb(0,128,60);
+		}
+		50%{
+			background-color: rgb(0,128,128);
+		}
+		58%{
+			background-color: rgb(0,60,128);
+		}
+		66%{
+			background-color: rgb(0,0,128);
+		}
+		75%{
+			background-color: rgb(60,0,128);
+		}
+		83%{
+			background-color: rgb(128,0,128);
+		}
+		91%{
+			background-color: rgb(128,0,60);
+		}
+}
+/*Also known as "chroma effect", I stole it from https://codepen.io/zak/pen/rWJzPy because im lazy lol*/
+
+.messagesWrapper__36d07.group-spacing-16, .channelBottomBarArea_f75fb0, .form_f75fb0.formWithLoadedChatInput_f75fb0{
+	animation: rainbow-bg 10s ease-in;
+	animation-iteration-count: infinite;
+}
